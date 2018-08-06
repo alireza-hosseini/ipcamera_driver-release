@@ -1,0 +1,12 @@
+Source: ros-kinetic-ipcamera-driver
+Section: misc
+Priority: extra
+Maintainer: Alireza Hosseini <alireza.mixedreality@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-camera-info-manager, ros-kinetic-catkin, ros-kinetic-cv-bridge, ros-kinetic-dynamic-reconfigure, ros-kinetic-image-transport, ros-kinetic-roscpp, ros-kinetic-sensor-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-ipcamera-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-camera-info-manager, ros-kinetic-cv-bridge, ros-kinetic-dynamic-reconfigure, ros-kinetic-image-transport, ros-kinetic-roscpp, ros-kinetic-sensor-msgs
+Description: Simple node to publish regular IP camera video streams to a ros topic.
