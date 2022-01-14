@@ -1,0 +1,28 @@
+ros-noetic-ipcamera-driver (0.1.1-1buster) buster; urgency=high
+
+
+
+ -- Alireza Hosseini <alireza.mixedreality@gmail.com>  Sun, 05 Aug 2018 22:00:00 -0000
+
+ros-noetic-ipcamera-driver (0.1.0-1buster) buster; urgency=high
+
+  * docs: Add initial documentation
+  * feat: Add example calibration file
+    - Use it as the camera_info_url for example.launch
+  * feat: Properly manage Camera Info
+    - Use camera_info_manager library to parse camera calibration info from
+    a yaml file and publish it through /camera/camera_info topic
+  * style: Apply clang format
+  * feat: Add example launch file
+  * refactor+cleanup: Fix LINT issues
+    - Update dependencies
+    - Add commands to install the node and launch dir
+    - Update maintainers, license and description
+  * Create CODE_OF_CONDUCT.md
+  * updated copyrights
+  * Initial commit
+  * Contributors: Alireza, alireza, alireza hosseini
+
+ -- Alireza Hosseini <alireza.mixedreality@gmail.com>  Sun, 05 Aug 2018 22:00:00 -0000
+
+
