@@ -1,0 +1,12 @@
+Source: ros-noetic-ipcamera-driver
+Section: misc
+Priority: optional
+Maintainer: Alireza Hosseini <alireza.mixedreality@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-camera-info-manager, ros-noetic-catkin, ros-noetic-cv-bridge, ros-noetic-dynamic-reconfigure, ros-noetic-image-transport, ros-noetic-roscpp, ros-noetic-sensor-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-ipcamera-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-camera-info-manager, ros-noetic-cv-bridge, ros-noetic-dynamic-reconfigure, ros-noetic-image-transport, ros-noetic-roscpp, ros-noetic-sensor-msgs
+Description: Simple node to publish regular IP camera video streams to a ros topic.
